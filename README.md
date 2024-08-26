@@ -1,21 +1,38 @@
-# Magix is a mod for Orteil's unfinished game called NeverEnding Legacy
-All rights reserved to the mod creator and people who was helping me into coding.
-All rights to the icon sheet reserved to the mod creator. All copying icons from sheets that mod uses to sheets of other mod will be counted as a plagiarism and become punished
-Scripts and the mod code is a private own of mod creator.
+# Magix Extras
+### IMPORTANT: These mods are to be used along with magix-fix.
+They have been made to work along with the fixed version of Magix, which you can figure out how to install over [here](https://github.com/plasma4/magix-fix/blob/main/README.md). The original creator, pelletsstarPL, has abandoned Magix and these Magix mods for the time being.
 
-# Magic in the game
-But you will need to do something before you will unlock it.
+## Normal installation
+**In order to install these Magix mods, use the links below:**
+Magix Market:
+```
+https://brunosupremo.github.io/magix-extras/MagixMarketUtils.js
+```
+Thot Mod:
+```
+https://brunosupremo.github.io/magix-extras/thot.js
+```
+Coal Mod (does not require Magix):
+```
+https://brunosupremo.github.io/coal-mod/coal_mod.js
+```
+Laws of Food Mod (does not require Magix):
+```
+https://adrthegamedev.github.io/LawsOfFood/lawsoffood.js
+```
+Laws of Food Mod Free Version (does not require Magix):
+```
+https://adrthegamedev.github.io/LawsOfFood/lawsoffoodfree.js
+```
+### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
 
-# Harder gameplay but more interesting
-Yes it was too easy. Since I made the mod it was 2k19 i noticed that increased difficulty/making normal things harder to unlock makes this game more interesting
-and enjoyable
+## Installation instructions for local development/playing
+You may install the local version of magix-fix [here](https://github.com/plasma4/magix-fix/archive/refs/heads/main.zip) (or, if you have already installed it, you can skip this step). Be sure to extract the .zip file to make sure things work properly!
 
-# Mod that is getting updates
-Yes it does. Not everyday but I try to launch a one update per 1 to 2 weeks.
+You have two options:
+- Install these mods through links
+- Install these mods by locally copying them over
 
-Utils for Bruno's market mod
-https://cdn.jsdelivr.net/gh/MagixModLegacy/Magix@master/MagixUtilsForMarketA0.js
-Installation: paste the url below url of Magix  *AND* Market mod. Playing market and magix without utils will cause on-purpose game crash.
+To get them installed through links, you can do it in a similar fashion. Click on Use Magix, add the link or links at the end, and copy all of the text **without deleting the original 2 Magix files**. You'll need to reload the page in order to actually install them; you can't just simply Load Mods.
 
-## Hope you guys will enjoy the mod ##
-## Copyrights: 2020
+However, to locally copy them over, you'll need to manually get the sprite sheet out and download the files from the links. Then, you can import it directly (without the starting part of the url, so, for example, the Thot mod would just become `thot.js` when imported).

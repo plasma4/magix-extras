@@ -1,7 +1,7 @@
 G.AddData({
 name:'Speedy',
 author:'pelletsstarPL',
-desc:'Not only pause , speed x1 , speed x30. Using a new button you can pick which speed do you want.',
+desc:'Adds a new button allowing to customize how fast you wish to spend your fast ticks.',
 engineVersion:1,
 manifest:'ModManifest.js',
 func:function(){
