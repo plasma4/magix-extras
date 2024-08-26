@@ -6,11 +6,11 @@ They have been made to work along with the fixed version of Magix, which you can
 **In order to install these Magix mods, use the links below:**
 Magix Market:
 ```
-https://brunosupremo.github.io/magix-extras/MagixMarketUtils.js
+https://plasma4.github.io/magix-extras/MagixMarketUtils.js
 ```
 Thot Mod:
 ```
-https://brunosupremo.github.io/magix-extras/thot.js
+https://plasma4.github.io/magix-extras/thot.js
 ```
 Coal Mod (does not require Magix):
 ```
