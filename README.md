@@ -20,11 +20,15 @@ Laws of Food Mod (does not require Magix):
 ```
 https://adrthegamedev.github.io/LawsOfFood/lawsoffood.js
 ```
-Laws of Food Mod Free Version (does not require Magix):
+Laws of Food Mod but with no influence cost (does not require Magix):
 ```
 https://adrthegamedev.github.io/LawsOfFood/lawsoffoodfree.js
 ```
-### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
+Don't Eat Herbs (does not require Magix):
+```
+https://therealohead.github.io/neverending-legacy-mods/mods/dont-eat-herbs.js
+```
+#### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
 
 ## Installation instructions for local development/playing
 You may install the local version of magix-fix [here](https://github.com/plasma4/magix-fix/archive/refs/heads/main.zip) (or, if you have already installed it, you can skip this step). Be sure to extract the .zip file to make sure things work properly!
