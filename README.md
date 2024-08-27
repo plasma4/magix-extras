@@ -31,6 +31,12 @@ Don't Eat Herbs (does not require Magix):
 https://therealohead.github.io/neverending-legacy-mods/mods/dont-eat-herbs.js
 ```
 ### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
+## Injecting a mod without wiping the save
+In order to inject a mod into a game that **is already in progress**, run the following script:
+```js
+G.mods.push({url:"LINK_HERE"});G.Save();location.reload()
+```
+Simply replace `LINK_HERE` with the link that you want to use. If you need to import multiple links at the same time, you can run this script several times in the same order, changing the link each time you run the script.
 ## Installation instructions for local development/playing
 You may install the local version of magix-fix [here](https://github.com/plasma4/magix-fix/archive/refs/heads/main.zip) (or, if you have already installed it, you can skip this step). Be sure to extract the .zip file to make sure things work properly!
 
