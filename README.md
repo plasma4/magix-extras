@@ -1,14 +1,16 @@
 # Magix Extras
-### IMPORTANT: These mods are to be used along with magix-fix.
+### Some mods may require or work better with Magix.
 They have been made to work along with the fixed version of Magix, which you can figure out how to install over [here](https://github.com/plasma4/magix-fix/blob/main/README.md). The original creator, pelletsstarPL, has abandoned Magix and these Magix mods for the time being.
 
 ## Normal installation
 **In order to install these Magix mods, use the links below:**
-Magix Market:
+
+Magix Market (import *both* links, however, if you wish to add this without Magix, only import the first one):
 ```
+https://brunosupremo.github.io/market_mod/market_mod.js
 https://plasma4.github.io/magix-extras/MagixMarketUtils.js
 ```
-Thot Mod:
+Thot Mod (does not require Magix):
 ```
 https://plasma4.github.io/magix-extras/thot.js
 ```
@@ -28,8 +30,7 @@ Don't Eat Herbs (does not require Magix):
 ```
 https://therealohead.github.io/neverending-legacy-mods/mods/dont-eat-herbs.js
 ```
-#### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
-
+### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
 ## Installation instructions for local development/playing
 You may install the local version of magix-fix [here](https://github.com/plasma4/magix-fix/archive/refs/heads/main.zip) (or, if you have already installed it, you can skip this step). Be sure to extract the .zip file to make sure things work properly!
 
