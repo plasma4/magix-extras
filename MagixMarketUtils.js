@@ -35,13 +35,13 @@ G.AddData({
 		G.getDict('market_sell').modes['le'] = {
 			name: 'L.e.',
 			icon: [0, 3, 'magixmod'],
-			desc: 'Sell [Lightning essence] for [market_coin].',
+			desc: 'Sell [lightning essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Lightning essence': 1000,
+				'lightning essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -52,13 +52,13 @@ G.AddData({
 		G.getDict('market_sell').modes['fe'] = {
 			name: 'F.e.',
 			icon: [0, 2, 'magixmod'],
-			desc: 'Sell [Fire essence] for [market_coin].',
+			desc: 'Sell [fire essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Fire essence': 1000,
+				'fire essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -69,13 +69,13 @@ G.AddData({
 		G.getDict('market_sell').modes['we'] = {
 			name: 'W.e.',
 			icon: [0, 1, 'magixmod'],
-			desc: 'Sell [Water essence] for [market_coin].',
+			desc: 'Sell [water essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Water essence': 1000,
+				'water essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -86,13 +86,13 @@ G.AddData({
 		G.getDict('market_sell').modes['de'] = {
 			name: 'D.e.',
 			icon: [1, 3, 'magixmod'],
-			desc: 'Sell [Dark essence] for [market_coin].',
+			desc: 'Sell [dark essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Dark essence': 1000,
+				'dark essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -103,13 +103,13 @@ G.AddData({
 		G.getDict('market_sell').modes['wie'] = {
 			name: 'Wi.e.',
 			icon: [1, 1, 'magixmod'],
-			desc: 'Sell [Wind essence] for [market_coin].',
+			desc: 'Sell [wind essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Wind essence': 1000,
+				'wind essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -120,13 +120,13 @@ G.AddData({
 		G.getDict('market_sell').modes['ne'] = {
 			name: 'N.e.',
 			icon: [1, 2, 'magixmod'],
-			desc: 'Sell [Nature essence] for [market_coin].',
+			desc: 'Sell [nature essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Nature essence': 1000,
+				'nature essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -137,13 +137,13 @@ G.AddData({
 		G.getDict('market_sell').modes['he'] = {
 			name: 'H.e.',
 			icon: [20, 6, 'magixmod'],
-			desc: 'Sell [Essence of the Holiness] for [market_coin].',
+			desc: 'Sell [holy essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Essence of the Holiness': 1000,
+				'holy essence': 1000,
 			},
 			into: {
 				'market_coin': 60
@@ -310,7 +310,7 @@ G.AddData({
 		G.getDict('market_buy').modes['le'] = {
 			name: 'L.e.',
 			icon: [0, 3, 'magixmod'],
-			desc: 'Buy [Lightning essence] with [market_coin].',
+			desc: 'Buy [lightning essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -319,7 +319,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Lightning essence': 100,
+				'lightning essence': 100,
 			},
 			every: 5,
 			mode: 'le'
@@ -327,7 +327,7 @@ G.AddData({
 		G.getDict('market_buy').modes['fe'] = {
 			name: 'F.e.',
 			icon: [0, 2, 'magixmod'],
-			desc: 'Buy [Fire essence] with [market_coin].',
+			desc: 'Buy [fire essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -336,7 +336,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Fire essence': 100,
+				'fire essence': 100,
 			},
 			every: 5,
 			mode: 'fe'
@@ -344,7 +344,7 @@ G.AddData({
 		G.getDict('market_buy').modes['we'] = {
 			name: 'W.e.',
 			icon: [0, 1, 'magixmod'],
-			desc: 'Buy [Water essence] with [market_coin].',
+			desc: 'Buy [water essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -353,7 +353,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Water essence': 100,
+				'water essence': 100,
 			},
 			every: 5,
 			mode: 'we'
@@ -361,7 +361,7 @@ G.AddData({
 		G.getDict('market_buy').modes['de'] = {
 			name: 'D.e.',
 			icon: [1, 3, 'magixmod'],
-			desc: 'Buy [Dark essence] with [market_coin].',
+			desc: 'Buy [dark essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -370,7 +370,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Dark essence': 100,
+				'dark essence': 100,
 			},
 			every: 5,
 			mode: 'de'
@@ -378,7 +378,7 @@ G.AddData({
 		G.getDict('market_buy').modes['wie'] = {
 			name: 'Wi.e.',
 			icon: [1, 1, 'magixmod'],
-			desc: 'Buy [Wind essence] with [market_coin].',
+			desc: 'Buy [wind essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -387,7 +387,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Wind essence': 100,
+				'wind essence': 100,
 			},
 			every: 5,
 			mode: 'wie'
@@ -395,7 +395,7 @@ G.AddData({
 		G.getDict('market_buy').modes['ne'] = {
 			name: 'N.e.',
 			icon: [1, 2, 'magixmod'],
-			desc: 'Buy [Nature essence] with [market_coin].',
+			desc: 'Buy [nature essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -404,7 +404,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Nature essence': 100,
+				'nature essence': 100,
 			},
 			every: 5,
 			mode: 'ne'
@@ -412,7 +412,7 @@ G.AddData({
 		G.getDict('market_buy').modes['he'] = {
 			name: 'H.e.',
 			icon: [20, 6, 'magixmod'],
-			desc: 'Buy [Essence of the Holiness] with [market_coin].',
+			desc: 'Buy [holy essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('market_buy').effects.push({
@@ -421,7 +421,7 @@ G.AddData({
 				'market_coin': 350
 			},
 			into: {
-				'Essence of the Holiness': 100,
+				'holy essence': 100,
 			},
 			every: 5,
 			mode: 'he'
@@ -586,13 +586,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['le'] = {
 			name: 'L.e.',
 			icon: [0, 3, 'magixmod'],
-			desc: 'Sell [Lightning essence] for [market_coin].',
+			desc: 'Sell [lightning essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Lightning essence': 100,
+				'lightning essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -603,13 +603,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['fe'] = {
 			name: 'F.e.',
 			icon: [0, 2, 'magixmod'],
-			desc: 'Sell [Fire essence] for [market_coin].',
+			desc: 'Sell [fire essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Fire essence': 100,
+				'fire essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -620,13 +620,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['we'] = {
 			name: 'W.e.',
 			icon: [0, 1, 'magixmod'],
-			desc: 'Sell [Water essence] for [market_coin].',
+			desc: 'Sell [water essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Water essence': 100,
+				'water essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -637,13 +637,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['de'] = {
 			name: 'D.e.',
 			icon: [1, 3, 'magixmod'],
-			desc: 'Sell [Dark essence] for [market_coin].',
+			desc: 'Sell [dark essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Dark essence': 100,
+				'dark essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -654,13 +654,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['wie'] = {
 			name: 'Wi.e.',
 			icon: [1, 1, 'magixmod'],
-			desc: 'Sell [Wind essence] for [market_coin].',
+			desc: 'Sell [wind essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Wind essence': 100,
+				'wind essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -671,13 +671,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['ne'] = {
 			name: 'N.e.',
 			icon: [1, 2, 'magixmod'],
-			desc: 'Sell [Nature essence] for [market_coin].',
+			desc: 'Sell [nature essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Nature essence': 100,
+				'nature essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -688,13 +688,13 @@ G.AddData({
 		G.getDict('bazaar_sell').modes['he'] = {
 			name: 'H.e.',
 			icon: [20, 6, 'magixmod'],
-			desc: 'Sell [Essence of the Holiness] for [market_coin].',
+			desc: 'Sell [holy essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Essence of the Holiness': 100,
+				'holy essence': 100,
 			},
 			into: {
 				'market_coin': 6
@@ -861,7 +861,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['le'] = {
 			name: 'L.e.',
 			icon: [0, 3, 'magixmod'],
-			desc: 'Buy [Lightning essence] with [market_coin].',
+			desc: 'Buy [lightning essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -870,7 +870,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Lightning essence': 10,
+				'lightning essence': 10,
 			},
 			every: 5,
 			mode: 'le'
@@ -878,7 +878,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['fe'] = {
 			name: 'F.e.',
 			icon: [0, 2, 'magixmod'],
-			desc: 'Buy [Fire essence] with [market_coin].',
+			desc: 'Buy [fire essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -887,7 +887,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Fire essence': 10,
+				'fire essence': 10,
 			},
 			every: 5,
 			mode: 'fe'
@@ -895,7 +895,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['we'] = {
 			name: 'W.e.',
 			icon: [0, 1, 'magixmod'],
-			desc: 'Buy [Water essence] with [market_coin].',
+			desc: 'Buy [water essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -904,7 +904,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Water essence': 10,
+				'water essence': 10,
 			},
 			every: 5,
 			mode: 'we'
@@ -912,7 +912,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['de'] = {
 			name: 'D.e.',
 			icon: [1, 3, 'magixmod'],
-			desc: 'Buy [Dark essence] with [market_coin].',
+			desc: 'Buy [dark essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -921,7 +921,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Dark essence': 10,
+				'dark essence': 10,
 			},
 			every: 5,
 			mode: 'de'
@@ -929,7 +929,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['wie'] = {
 			name: 'Wi.e.',
 			icon: [1, 1, 'magixmod'],
-			desc: 'Buy [Wind essence] with [market_coin].',
+			desc: 'Buy [wind essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -938,7 +938,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Wind essence': 10,
+				'wind essence': 10,
 			},
 			every: 5,
 			mode: 'wie'
@@ -946,7 +946,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['ne'] = {
 			name: 'N.e.',
 			icon: [1, 2, 'magixmod'],
-			desc: 'Buy [Nature essence] with [market_coin].',
+			desc: 'Buy [nature essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -955,7 +955,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Nature essence': 10,
+				'nature essence': 10,
 			},
 			every: 5,
 			mode: 'ne'
@@ -963,7 +963,7 @@ G.AddData({
 		G.getDict('bazaar_buy').modes['he'] = {
 			name: 'H.e.',
 			icon: [20, 6, 'magixmod'],
-			desc: 'Buy [Essence of the Holiness] with [market_coin].',
+			desc: 'Buy [holy essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('bazaar_buy').effects.push({
@@ -972,7 +972,7 @@ G.AddData({
 				'market_coin': 35
 			},
 			into: {
-				'Essence of the Holiness': 10,
+				'holy essence': 10,
 			},
 			every: 5,
 			mode: 'he'
@@ -1137,13 +1137,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['le'] = {
 			name: 'L.e.',
 			icon: [0, 3, 'magixmod'],
-			desc: 'Sell [Lightning essence] for [market_coin].',
+			desc: 'Sell [lightning essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Lightning essence': 10,
+				'lightning essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1154,13 +1154,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['fe'] = {
 			name: 'F.e.',
 			icon: [0, 2, 'magixmod'],
-			desc: 'Sell [Fire essence] for [market_coin].',
+			desc: 'Sell [fire essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Fire essence': 10,
+				'fire essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1171,13 +1171,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['we'] = {
 			name: 'W.e.',
 			icon: [0, 1, 'magixmod'],
-			desc: 'Sell [Water essence] for [market_coin].',
+			desc: 'Sell [water essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Water essence': 10,
+				'water essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1188,13 +1188,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['de'] = {
 			name: 'D.e.',
 			icon: [1, 3, 'magixmod'],
-			desc: 'Sell [Dark essence] for [market_coin].',
+			desc: 'Sell [dark essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Dark essence': 10,
+				'dark essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1205,13 +1205,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['wie'] = {
 			name: 'Wi.e.',
 			icon: [1, 1, 'magixmod'],
-			desc: 'Sell [Wind essence] for [market_coin].',
+			desc: 'Sell [wind essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Wind essence': 10,
+				'wind essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1222,13 +1222,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['ne'] = {
 			name: 'N.e.',
 			icon: [1, 2, 'magixmod'],
-			desc: 'Sell [Nature essence] for [market_coin].',
+			desc: 'Sell [nature essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Nature essence': 10,
+				'nature essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1239,13 +1239,13 @@ G.AddData({
 		G.getDict('trader_sell').modes['he'] = {
 			name: 'H.e.',
 			icon: [20, 6, 'magixmod'],
-			desc: 'Sell [Essence of the Holiness] for [market_coin].',
+			desc: 'Sell [holy essence] for [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_sell').effects.push({
 			type: 'convert',
 			from: {
-				'Essence of the Holiness': 10,
+				'holy essence': 10,
 			},
 			into: {
 				'market_coin': 0.6
@@ -1412,7 +1412,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['le'] = {
 			name: 'L.e.',
 			icon: [0, 3, 'magixmod'],
-			desc: 'Buy [Lightning essence] with [market_coin].',
+			desc: 'Buy [lightning essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1421,7 +1421,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Lightning essence': 1,
+				'lightning essence': 1,
 			},
 			every: 5,
 			mode: 'le'
@@ -1429,7 +1429,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['fe'] = {
 			name: 'F.e.',
 			icon: [0, 2, 'magixmod'],
-			desc: 'Buy [Fire essence] with [market_coin].',
+			desc: 'Buy [fire essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1438,7 +1438,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Fire essence': 1,
+				'fire essence': 1,
 			},
 			every: 5,
 			mode: 'fe'
@@ -1446,7 +1446,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['we'] = {
 			name: 'W.e.',
 			icon: [0, 1, 'magixmod'],
-			desc: 'Buy [Water essence] with [market_coin].',
+			desc: 'Buy [water essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1455,7 +1455,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Water essence': 1,
+				'water essence': 1,
 			},
 			every: 5,
 			mode: 'we'
@@ -1463,7 +1463,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['de'] = {
 			name: 'D.e.',
 			icon: [1, 3, 'magixmod'],
-			desc: 'Buy [Dark essence] with [market_coin].',
+			desc: 'Buy [dark essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1472,7 +1472,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Dark essence': 1,
+				'dark essence': 1,
 			},
 			every: 5,
 			mode: 'de'
@@ -1480,7 +1480,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['wie'] = {
 			name: 'Wi.e.',
 			icon: [1, 1, 'magixmod'],
-			desc: 'Buy [Wind essence] with [market_coin].',
+			desc: 'Buy [wind essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1489,7 +1489,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Wind essence': 1,
+				'wind essence': 1,
 			},
 			every: 5,
 			mode: 'wie'
@@ -1497,7 +1497,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['ne'] = {
 			name: 'N.e.',
 			icon: [1, 2, 'magixmod'],
-			desc: 'Buy [Nature essence] with [market_coin].',
+			desc: 'Buy [nature essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1506,7 +1506,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Nature essence': 1,
+				'nature essence': 1,
 			},
 			every: 5,
 			mode: 'ne'
@@ -1514,7 +1514,7 @@ G.AddData({
 		G.getDict('trader_buy').modes['he'] = {
 			name: 'H.e.',
 			icon: [20, 6, 'magixmod'],
-			desc: 'Buy [Essence of the Holiness] with [market_coin].',
+			desc: 'Buy [holy essence] with [market_coin].',
 			req: { 'extended essences catalog': 'on' }
 		};
 		G.getDict('trader_buy').effects.push({
@@ -1523,7 +1523,7 @@ G.AddData({
 				'market_coin': 3.5
 			},
 			into: {
-				'Essence of the Holiness': 1,
+				'holy essence': 1,
 			},
 			every: 5,
 			mode: 'he'

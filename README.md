@@ -22,7 +22,7 @@ Laws of Food Mod (does not require Magix):
 ```
 https://adrthegamedev.github.io/LawsOfFood/lawsoffood.js
 ```
-Laws of Food Mod but with no influence cost (does not require Magix):
+Laws of Food Mod but with no influence cost (does not require Magix, but has the functionality of Don't Eat Herbs):
 ```
 https://adrthegamedev.github.io/LawsOfFood/lawsoffoodfree.js
 ```
@@ -30,7 +30,7 @@ Don't Eat Herbs (does not require Magix):
 ```
 https://therealohead.github.io/neverending-legacy-mods/mods/dont-eat-herbs.js
 ```
-### I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
+### NOTE: I, plasma4 (Leo Zhang/@1_e0) was NOT the original creator of these mods.
 ## Injecting a mod without wiping the save
 In order to inject a mod into a game that **is already in progress**, run the following script:
 ```js
