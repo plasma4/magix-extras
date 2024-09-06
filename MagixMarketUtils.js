@@ -6,6 +6,7 @@ G.AddData({
 	engineVersion: 1,
 	requires: ['Default dataset*', 'Market mod'],
 	func: function () {
+		G.getDict('market_sell').modes.coal.icon = G.getDict('market_buy').modes.coal.icon = G.getDict('bazaar_sell').modes.coal.icon = G.getDict('bazaar_buy').modes.coal.icon = G.getDict('trader_sell').modes.coal.icon = G.getDict('trader_buy').modes.coal.icon = [12, 8]
 		G.getDict("market_coin").desc = "Market currency used to buy and sell other goods.//Used by [trader_icon]s, [bazaar_icon]s and [market_icon]s.//May also be stolen over time!"
 		G.getDict("market_tech").desc = "@unlocks [trader_icon]s<>[population,Traders] are units that are able to buy or sell items."
 		G.getDict("market_tech").icon = [0, 0, "market_images", 3, 22, "magixmod"]
