@@ -1,16 +1,16 @@
-var _shortcutsLoaded = false
+var _hotkeysLoaded = false
 G.AddData({
-    name: 'Shortcuts',
+    name: 'Hotkeys',
     author: '1_e0',
     desc: 'Adds some simple QOL hotkeys to the game. (0 to reroll research, 1-9 to select research, hold Alt for temporary fast forward, and _ or - and = or + act as the multiply/divide by 10 for unit selection amount.',
     engineVersion: 1,
     manifest: 0,
     func: function () {
         // Custom implementation of keyboard events
-        if (window.loadedMagix || _shortcutsLoaded) {
+        if (window.loadedMagix || _hotkeysLoaded) {
             return
         }
-        _shortcutsLoaded = true
+        _hotkeysLoaded = true
         document.addEventListener("keydown", function (e) {
             var key = e.key
             if (key >= '0' && key <= '9') {

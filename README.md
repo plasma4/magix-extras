@@ -49,4 +49,4 @@ To get them installed through links, you can do it in a similar fashion. Click o
 However, to locally copy them over, you'll need to manually get the sprite sheet out and download the files from the links. Then, you can import it directly (without the starting part of the url, so, for example, the Thot mod would just become `thot.js` when imported).
 
 ## Keyboard shortcuts
-The script for hotkeys (https://plasma4.github.io/magix-extras/thot.js) is already in Magix by default so you don't need to add it, but can be installed with mods other than Magix if you wish as described above.
+The script for hotkeys (https://plasma4.github.io/magix-extras/hotkeys.js) is already in Magix by default so you don't need to add it, but can be installed with mods other than Magix if you wish as described above.
