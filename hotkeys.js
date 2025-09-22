@@ -41,7 +41,8 @@ G.AddData({
                 }
                 G.Scroll = 1;
             } else if (e.altKey) {
-                l("fastButton").click()
+                e.preventDefault()
+                if (!e.repeat) l("fastButton").click()
             }
         })
         document.addEventListener("keyup", function (e) {
