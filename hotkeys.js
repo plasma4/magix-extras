@@ -26,22 +26,20 @@ G.AddData({
             } else if (key == "_" || key == "-") {
                 if (G.tab.id == 'unit') l('removeBulk').click()
                 if (G.tab.id == 'land' && G.mapZoomT == 2) {
-                    G.mapZoomT = 1;
-                    G.mapOffXT /= 2;
-                    G.mapOffYT /= 2;
-                    G.tooltip.close();
+                    G.mapZoomT = 1
+                    G.mapOffXT /= 2
+                    G.mapOffYT /= 2
+                    G.tooltip.close()
                 }
             } else if (key == "+" || key == "=") {
                 if (G.tab.id == 'unit') l('addBulk').click()
                 if (G.tab.id == 'land' && G.mapZoomT == 1) {
-                    G.mapZoomT = 2;
-                    G.mapOffXT *= 2;
-                    G.mapOffYT *= 2;
-                    G.tooltip.close();
+                    G.mapZoomT = 2
+                    G.mapOffXT *= 2
+                    G.mapOffYT *= 2
+                    G.tooltip.close()
                 }
-                G.Scroll = 1;
             } else if (e.altKey) {
-                e.preventDefault()
                 if (!e.repeat) l("fastButton").click()
             }
         })
